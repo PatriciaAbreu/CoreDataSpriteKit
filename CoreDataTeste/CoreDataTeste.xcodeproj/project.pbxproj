@@ -15,6 +15,11 @@
 		6A0AD6601B7A751100304CBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AD65F1B7A751100304CBF /* Images.xcassets */; };
 		6A0AD6631B7A751100304CBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AD6611B7A751100304CBF /* LaunchScreen.xib */; };
 		6A0AD66F1B7A751100304CBF /* CoreDataTesteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AD66E1B7A751100304CBF /* CoreDataTesteTests.swift */; };
+		6A0AD67A1B7A755B00304CBF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AD6781B7A755B00304CBF /* Model.xcdatamodeld */; };
+		6A0AD67C1B7A75C200304CBF /* Exercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AD67B1B7A75C200304CBF /* Exercicio.swift */; };
+		6A0AD67F1B7A761200304CBF /* ExercicioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AD67E1B7A761200304CBF /* ExercicioManager.swift */; };
+		6A0AD6811B7A7CC800304CBF /* teste.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AD6801B7A7CC800304CBF /* teste.m4v */; };
+		6A0AD6831B7A7CD300304CBF /* testeAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AD6821B7A7CD300304CBF /* testeAudio.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		6A0AD6681B7A751100304CBF /* CoreDataTesteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTesteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0AD66D1B7A751100304CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A0AD66E1B7A751100304CBF /* CoreDataTesteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTesteTests.swift; sourceTree = "<group>"; };
+		6A0AD6791B7A755B00304CBF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6A0AD67B1B7A75C200304CBF /* Exercicio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercicio.swift; sourceTree = "<group>"; };
+		6A0AD67E1B7A761200304CBF /* ExercicioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercicioManager.swift; sourceTree = "<group>"; };
+		6A0AD6801B7A7CC800304CBF /* teste.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = teste.m4v; sourceTree = "<group>"; };
+		6A0AD6821B7A7CD300304CBF /* testeAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = testeAudio.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,9 @@
 		6A0AD6461B7A751100304CBF = {
 			isa = PBXGroup;
 			children = (
+				6A0AD6821B7A7CD300304CBF /* testeAudio.m4a */,
+				6A0AD6801B7A7CC800304CBF /* teste.m4v */,
+				6A0AD67D1B7A75C900304CBF /* CoreData */,
 				6A0AD6511B7A751100304CBF /* CoreDataTeste */,
 				6A0AD66B1B7A751100304CBF /* CoreDataTesteTests */,
 				6A0AD6501B7A751100304CBF /* Products */,
@@ -116,6 +129,16 @@
 				6A0AD66D1B7A751100304CBF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A0AD67D1B7A75C900304CBF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6A0AD6781B7A755B00304CBF /* Model.xcdatamodeld */,
+				6A0AD67B1B7A75C200304CBF /* Exercicio.swift */,
+				6A0AD67E1B7A761200304CBF /* ExercicioManager.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0AD6831B7A7CD300304CBF /* testeAudio.m4a in Resources */,
+				6A0AD6811B7A7CC800304CBF /* teste.m4v in Resources */,
 				6A0AD6631B7A751100304CBF /* LaunchScreen.xib in Resources */,
 				6A0AD6601B7A751100304CBF /* Images.xcassets in Resources */,
 				6A0AD6571B7A751100304CBF /* GameScene.sks in Resources */,
@@ -220,8 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A0AD6591B7A751100304CBF /* GameScene.swift in Sources */,
+				6A0AD67F1B7A761200304CBF /* ExercicioManager.swift in Sources */,
 				6A0AD65B1B7A751100304CBF /* GameViewController.swift in Sources */,
+				6A0AD67C1B7A75C200304CBF /* Exercicio.swift in Sources */,
 				6A0AD6551B7A751100304CBF /* AppDelegate.swift in Sources */,
+				6A0AD67A1B7A755B00304CBF /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +447,7 @@
 				6A0AD6741B7A751100304CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0AD6751B7A751100304CBF /* Build configuration list for PBXNativeTarget "CoreDataTesteTests" */ = {
 			isa = XCConfigurationList;
@@ -427,8 +456,22 @@
 				6A0AD6771B7A751100304CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A0AD6781B7A755B00304CBF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A0AD6791B7A755B00304CBF /* Model.xcdatamodel */,
+			);
+			currentVersion = 6A0AD6791B7A755B00304CBF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6A0AD6471B7A751100304CBF /* Project object */;
 }
