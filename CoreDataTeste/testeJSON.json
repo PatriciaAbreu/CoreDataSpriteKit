@@ -1,0 +1,19 @@
+{
+"exercicios": [
+             {
+             "texto": "Me ajuda a arrumar os de 0 a 9?",
+             "audio": "testeAudio",
+             "tipoAudio": "m4a",
+             "video": "teste",
+             "tipoVideo": "m4v",
+             "resultado": ""
+             },
+             
+             {
+             "titulo": "Teste2",
+             "resumo": "teste de JSON 2",
+             "ano": 2016,
+             "genero": ["teste4", "teste5", "teste6"]
+             }
+             ]
+}

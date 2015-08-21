@@ -20,6 +20,8 @@
 		6A0AD67F1B7A761200304CBF /* ExercicioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AD67E1B7A761200304CBF /* ExercicioManager.swift */; };
 		6A0AD6811B7A7CC800304CBF /* teste.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AD6801B7A7CC800304CBF /* teste.m4v */; };
 		6A0AD6831B7A7CD300304CBF /* testeAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6A0AD6821B7A7CD300304CBF /* testeAudio.m4a */; };
+		6A541ABE1B864FAC0066B36C /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A541ABD1B864FAC0066B36C /* JSON.swift */; };
+		6A541AC01B86535C0066B36C /* testeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A541ABF1B86535C0066B36C /* testeJSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		6A0AD67E1B7A761200304CBF /* ExercicioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercicioManager.swift; sourceTree = "<group>"; };
 		6A0AD6801B7A7CC800304CBF /* teste.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = teste.m4v; sourceTree = "<group>"; };
 		6A0AD6821B7A7CD300304CBF /* testeAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = testeAudio.m4a; sourceTree = "<group>"; };
+		6A541ABD1B864FAC0066B36C /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = CoreDataTeste/JSON.swift; sourceTree = "<group>"; };
+		6A541ABF1B86535C0066B36C /* testeJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testeJSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +77,10 @@
 		6A0AD6461B7A751100304CBF = {
 			isa = PBXGroup;
 			children = (
+				6A541ABF1B86535C0066B36C /* testeJSON.json */,
 				6A0AD6821B7A7CD300304CBF /* testeAudio.m4a */,
 				6A0AD6801B7A7CC800304CBF /* teste.m4v */,
+				6A541ABD1B864FAC0066B36C /* JSON.swift */,
 				6A0AD67D1B7A75C900304CBF /* CoreData */,
 				6A0AD6511B7A751100304CBF /* CoreDataTeste */,
 				6A0AD66B1B7A751100304CBF /* CoreDataTesteTests */,
@@ -221,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A541AC01B86535C0066B36C /* testeJSON.json in Resources */,
 				6A0AD6831B7A7CD300304CBF /* testeAudio.m4a in Resources */,
 				6A0AD6811B7A7CC800304CBF /* teste.m4v in Resources */,
 				6A0AD6631B7A751100304CBF /* LaunchScreen.xib in Resources */,
@@ -245,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A0AD6591B7A751100304CBF /* GameScene.swift in Sources */,
+				6A541ABE1B864FAC0066B36C /* JSON.swift in Sources */,
 				6A0AD67F1B7A761200304CBF /* ExercicioManager.swift in Sources */,
 				6A0AD65B1B7A751100304CBF /* GameViewController.swift in Sources */,
 				6A0AD67C1B7A75C200304CBF /* Exercicio.swift in Sources */,
